@@ -95,7 +95,7 @@ const Index = () => {
         <header className="bg-white/40 backdrop-blur-xl border-b border-white/20 px-8 py-5 sticky top-0 z-10">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-800 mb-1">Система электронного документооборота</h1>
+              <h1 className="text-2xl font-bold text-gray-800 mb-1">ИИ-АРМ госслужащего</h1>
               <p className="text-sm text-gray-600">Добро пожаловать в рабочее пространство</p>
             </div>
             <div className="flex items-center gap-4">
