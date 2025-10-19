@@ -96,7 +96,8 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-gray-800 mb-1">ИИ-АРМ госслужащего</h1>
-              <p className="text-sm text-gray-600">Добро пожаловать А. Ефименко, специалист Управления делами</p>
+              <p className="text-sm text-gray-600">Добро пожаловать А. Ефименко, специалист Управления делами Администрации Раменское
+</p>
             </div>
             <div className="flex items-center gap-4">
               <button className="p-2.5 rounded-xl bg-white/60 hover:bg-white/80 transition-all duration-200 shadow-sm">
