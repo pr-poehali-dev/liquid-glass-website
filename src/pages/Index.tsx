@@ -192,7 +192,7 @@ const Index = () => {
                       <span className="text-xs font-mono text-gray-500">№ {task.number}</span>
                     </div>
                     <h4 className="font-semibold text-gray-800 text-sm mb-2 leading-tight">{task.title}</h4>
-                    <div className="flex items-center justify-between text-xs text-gray-600">
+                    <div className="flex items-center justify-between text-xs text-gray-600 mb-1.5">
                       <span className="flex items-center gap-1">
                         <Icon name="User" size={14} />
                         {task.assignee}
@@ -200,6 +200,10 @@ const Index = () => {
                       <Badge className={`${getStatusColor(task.status)} text-xs px-2 py-0.5`}>
                         {task.status}
                       </Badge>
+                    </div>
+                    <div className="flex items-center gap-1 text-xs text-gray-600">
+                      <Icon name="Calendar" size={14} />
+                      <span>Срок исполнения: {task.deadline}</span>
                     </div>
                   </div>
                 ))}
