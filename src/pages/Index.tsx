@@ -17,7 +17,7 @@ const Index = () => {
   ];
 
   const mainModules = [
-    { id: 1, title: 'Добавление информации', icon: 'PlusCircle', gradient: 'from-blue-400/30 to-cyan-400/30' },
+    { id: 1, title: 'Базы знаний', icon: 'Database', gradient: 'from-blue-400/30 to-cyan-400/30' },
     { id: 2, title: 'Анализ документации', icon: 'Search', gradient: 'from-violet-400/30 to-purple-400/30' },
     { id: 3, title: 'Генерация документов', icon: 'FileOutput', gradient: 'from-emerald-400/30 to-teal-400/30' },
     { id: 4, title: 'Работа с НПА', icon: 'Scale', gradient: 'from-amber-400/30 to-orange-400/30' },
