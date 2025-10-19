@@ -26,7 +26,7 @@ const Index = () => {
   ];
 
   const assignedToMe = [
-    { id: 1, number: '3521', title: 'Подготовить аналитическую справку', deadline: '15.12.2024', priority: 'high', from: 'Иванов И.И.' },
+    { id: 1, number: '3521', title: 'Подготовить справку о задолженностях в бюджет по налогам', deadline: '15.12.2024', priority: 'high', from: 'Иванов И.И.' },
     { id: 2, number: '3522', title: 'Проверить проект постановления', deadline: '18.12.2024', priority: 'medium', from: 'Петрова А.С.' },
     { id: 3, number: '3523', title: 'Согласовать план мероприятий', deadline: '20.12.2024', priority: 'low', from: 'Сидоров П.К.' },
     { id: 4, number: '3524', title: 'Подготовить отчет о выполнении бюджета', deadline: '16.12.2024', priority: 'high', from: 'Морозов В.А.' },
