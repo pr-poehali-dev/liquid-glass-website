@@ -105,7 +105,7 @@ const Index = () => {
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
               ИИ-АРМ госслужащего
             </h1>
-            <p className="text-gray-600">Интеллектуальная система управления документооборотом</p>
+            <p className="text-gray-600">Сотрудник: В.Ефименко, Управление делопроизводства</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
