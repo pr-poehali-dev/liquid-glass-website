@@ -144,13 +144,18 @@ const Index = () => {
                 <Badge className="ml-auto bg-red-500 text-white border-0 shadow-sm">{assignedToMe.length}</Badge>
               </div>
               <div className="space-y-3">
-                {assignedToMe.map((task) => (
+                {assignedToMe.map((task, index) => (
                   <div
                     key={task.id}
                     className="p-4 bg-white/80 rounded-xl border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer"
                   >
                     <div className="flex items-start justify-between gap-2 mb-2">
-                      <h4 className="font-semibold text-gray-800 text-sm leading-tight">{task.title}</h4>
+                      <div className="flex items-start gap-2">
+                        <span className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center text-xs font-bold">
+                          {index + 1}
+                        </span>
+                        <h4 className="font-semibold text-gray-800 text-sm leading-tight">{task.title}</h4>
+                      </div>
                       <Badge className={`${getPriorityColor(task.priority)} border text-xs px-2 py-0.5`}>
                         {getPriorityLabel(task.priority)}
                       </Badge>
@@ -179,12 +184,17 @@ const Index = () => {
                 <Badge className="ml-auto bg-blue-500 text-white border-0 shadow-sm">{assignedByMe.length}</Badge>
               </div>
               <div className="space-y-3">
-                {assignedByMe.map((task) => (
+                {assignedByMe.map((task, index) => (
                   <div
                     key={task.id}
                     className="p-4 bg-white/80 rounded-xl border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer"
                   >
-                    <h4 className="font-semibold text-gray-800 text-sm mb-2 leading-tight">{task.title}</h4>
+                    <div className="flex items-start gap-2 mb-2">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold">
+                        {index + 1}
+                      </span>
+                      <h4 className="font-semibold text-gray-800 text-sm leading-tight">{task.title}</h4>
+                    </div>
                     <div className="flex items-center justify-between text-xs text-gray-600">
                       <span className="flex items-center gap-1">
                         <Icon name="User" size={14} />
@@ -208,12 +218,17 @@ const Index = () => {
                 <Badge className="ml-auto bg-purple-500 text-white border-0 shadow-sm">{documentsInWork.length}</Badge>
               </div>
               <div className="space-y-3">
-                {documentsInWork.map((doc) => (
+                {documentsInWork.map((doc, index) => (
                   <div
                     key={doc.id}
                     className="p-4 bg-white/80 rounded-xl border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer"
                   >
-                    <h4 className="font-semibold text-gray-800 text-sm mb-2 leading-tight">{doc.title}</h4>
+                    <div className="flex items-start gap-2 mb-2">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-xs font-bold">
+                        {index + 1}
+                      </span>
+                      <h4 className="font-semibold text-gray-800 text-sm leading-tight">{doc.title}</h4>
+                    </div>
                     <div className="flex items-center justify-between text-xs text-gray-600">
                       <span className="flex items-center gap-1">
                         <Icon name="FileType" size={14} />
