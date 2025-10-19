@@ -28,102 +28,102 @@ const Index = () => {
   ];
 
   const assignedToMe = [
-    { id: 1, title: 'Подготовить аналитическую справку', deadline: '15.12.2024', priority: 'high', from: 'Иванов И.И.' },
-    { id: 2, title: 'Проверить проект постановления', deadline: '18.12.2024', priority: 'medium', from: 'Петрова А.С.' },
-    { id: 3, title: 'Согласовать план мероприятий', deadline: '20.12.2024', priority: 'low', from: 'Сидоров П.К.' },
-    { id: 4, title: 'Подготовить отчет о выполнении бюджета', deadline: '16.12.2024', priority: 'high', from: 'Морозов В.А.' },
-    { id: 5, title: 'Проанализировать обращения граждан', deadline: '19.12.2024', priority: 'medium', from: 'Кузнецова Е.И.' },
-    { id: 6, title: 'Разработать проект регламента', deadline: '21.12.2024', priority: 'low', from: 'Соколов А.П.' },
-    { id: 7, title: 'Согласовать график отпусков', deadline: '17.12.2024', priority: 'high', from: 'Новикова Т.С.' },
-    { id: 8, title: 'Подготовить ответ на запрос прокуратуры', deadline: '16.12.2024', priority: 'high', from: 'Волков Д.М.' },
-    { id: 9, title: 'Проверить смету расходов', deadline: '22.12.2024', priority: 'medium', from: 'Лебедева О.К.' },
-    { id: 10, title: 'Составить план закупок', deadline: '23.12.2024', priority: 'low', from: 'Павлов С.Н.' },
-    { id: 11, title: 'Подготовить материалы к совещанию', deadline: '17.12.2024', priority: 'high', from: 'Федорова Н.В.' },
-    { id: 12, title: 'Проверить договоры с подрядчиками', deadline: '20.12.2024', priority: 'medium', from: 'Михайлов Г.Б.' },
-    { id: 13, title: 'Разработать методические рекомендации', deadline: '24.12.2024', priority: 'low', from: 'Романова И.Л.' },
-    { id: 14, title: 'Согласовать техническое задание', deadline: '18.12.2024', priority: 'high', from: 'Егоров П.Р.' },
-    { id: 15, title: 'Подготовить пояснительную записку', deadline: '19.12.2024', priority: 'medium', from: 'Козлова А.Ю.' },
-    { id: 16, title: 'Проанализировать статистические данные', deadline: '25.12.2024', priority: 'low', from: 'Медведев К.О.' },
-    { id: 17, title: 'Подготовить проект приказа', deadline: '18.12.2024', priority: 'high', from: 'Захарова Л.М.' },
-    { id: 18, title: 'Согласовать план работы комиссии', deadline: '21.12.2024', priority: 'medium', from: 'Борисов Н.Д.' },
-    { id: 19, title: 'Проверить акты выполненных работ', deadline: '26.12.2024', priority: 'low', from: 'Степанова В.Г.' },
-    { id: 20, title: 'Подготовить служебную записку', deadline: '19.12.2024', priority: 'high', from: 'Васильев Ю.С.' },
-    { id: 21, title: 'Разработать план мероприятий по контролю', deadline: '22.12.2024', priority: 'medium', from: 'Алексеева О.А.' },
-    { id: 22, title: 'Согласовать положение о структурном подразделении', deadline: '27.12.2024', priority: 'low', from: 'Григорьев Р.В.' },
-    { id: 23, title: 'Подготовить информацию для отчета', deadline: '20.12.2024', priority: 'high', from: 'Тимофеева С.П.' },
-    { id: 24, title: 'Проверить реестр полномочий', deadline: '23.12.2024', priority: 'medium', from: 'Крылов И.Н.' },
-    { id: 25, title: 'Разработать должностную инструкцию', deadline: '28.12.2024', priority: 'low', from: 'Виноградова Т.Л.' },
-    { id: 26, title: 'Согласовать план проверок', deadline: '21.12.2024', priority: 'high', from: 'Макаров Б.К.' },
-    { id: 27, title: 'Подготовить ответ на письмо министерства', deadline: '24.12.2024', priority: 'medium', from: 'Антонова М.Е.' },
-    { id: 28, title: 'Проанализировать показатели эффективности', deadline: '29.12.2024', priority: 'low', from: 'Семенов Ф.Ж.' },
-    { id: 29, title: 'Подготовить проект договора', deadline: '22.12.2024', priority: 'high', from: 'Денисова К.Х.' },
-    { id: 30, title: 'Согласовать график приема граждан', deadline: '25.12.2024', priority: 'medium', from: 'Орлов З.Ц.' },
+    { id: 1, number: '3521', title: 'Подготовить аналитическую справку', deadline: '15.12.2024', priority: 'high', from: 'Иванов И.И.' },
+    { id: 2, number: '3522', title: 'Проверить проект постановления', deadline: '18.12.2024', priority: 'medium', from: 'Петрова А.С.' },
+    { id: 3, number: '3523', title: 'Согласовать план мероприятий', deadline: '20.12.2024', priority: 'low', from: 'Сидоров П.К.' },
+    { id: 4, number: '3524', title: 'Подготовить отчет о выполнении бюджета', deadline: '16.12.2024', priority: 'high', from: 'Морозов В.А.' },
+    { id: 5, number: '3525', title: 'Проанализировать обращения граждан', deadline: '19.12.2024', priority: 'medium', from: 'Кузнецова Е.И.' },
+    { id: 6, number: '3526', title: 'Разработать проект регламента', deadline: '21.12.2024', priority: 'low', from: 'Соколов А.П.' },
+    { id: 7, number: '3527', title: 'Согласовать график отпусков', deadline: '17.12.2024', priority: 'high', from: 'Новикова Т.С.' },
+    { id: 8, number: '3528', title: 'Подготовить ответ на запрос прокуратуры', deadline: '16.12.2024', priority: 'high', from: 'Волков Д.М.' },
+    { id: 9, number: '3529', title: 'Проверить смету расходов', deadline: '22.12.2024', priority: 'medium', from: 'Лебедева О.К.' },
+    { id: 10, number: '3530', title: 'Составить план закупок', deadline: '23.12.2024', priority: 'low', from: 'Павлов С.Н.' },
+    { id: 11, number: '3531', title: 'Подготовить материалы к совещанию', deadline: '17.12.2024', priority: 'high', from: 'Федорова Н.В.' },
+    { id: 12, number: '3532', title: 'Проверить договоры с подрядчиками', deadline: '20.12.2024', priority: 'medium', from: 'Михайлов Г.Б.' },
+    { id: 13, number: '3533', title: 'Разработать методические рекомендации', deadline: '24.12.2024', priority: 'low', from: 'Романова И.Л.' },
+    { id: 14, number: '3534', title: 'Согласовать техническое задание', deadline: '18.12.2024', priority: 'high', from: 'Егоров П.Р.' },
+    { id: 15, number: '3535', title: 'Подготовить пояснительную записку', deadline: '19.12.2024', priority: 'medium', from: 'Козлова А.Ю.' },
+    { id: 16, number: '3536', title: 'Проанализировать статистические данные', deadline: '25.12.2024', priority: 'low', from: 'Медведев К.О.' },
+    { id: 17, number: '3537', title: 'Подготовить проект приказа', deadline: '18.12.2024', priority: 'high', from: 'Захарова Л.М.' },
+    { id: 18, number: '3538', title: 'Согласовать план работы комиссии', deadline: '21.12.2024', priority: 'medium', from: 'Борисов Н.Д.' },
+    { id: 19, number: '3539', title: 'Проверить акты выполненных работ', deadline: '26.12.2024', priority: 'low', from: 'Степанова В.Г.' },
+    { id: 20, number: '3540', title: 'Подготовить служебную записку', deadline: '19.12.2024', priority: 'high', from: 'Васильев Ю.С.' },
+    { id: 21, number: '3541', title: 'Разработать план мероприятий по контролю', deadline: '22.12.2024', priority: 'medium', from: 'Алексеева О.А.' },
+    { id: 22, number: '3542', title: 'Согласовать положение о структурном подразделении', deadline: '27.12.2024', priority: 'low', from: 'Григорьев Р.В.' },
+    { id: 23, number: '3543', title: 'Подготовить информацию для отчета', deadline: '20.12.2024', priority: 'high', from: 'Тимофеева С.П.' },
+    { id: 24, number: '3544', title: 'Проверить реестр полномочий', deadline: '23.12.2024', priority: 'medium', from: 'Крылов И.Н.' },
+    { id: 25, number: '3545', title: 'Разработать должностную инструкцию', deadline: '28.12.2024', priority: 'low', from: 'Виноградова Т.Л.' },
+    { id: 26, number: '3546', title: 'Согласовать план проверок', deadline: '21.12.2024', priority: 'high', from: 'Макаров Б.К.' },
+    { id: 27, number: '3547', title: 'Подготовить ответ на письмо министерства', deadline: '24.12.2024', priority: 'medium', from: 'Антонова М.Е.' },
+    { id: 28, number: '3548', title: 'Проанализировать показатели эффективности', deadline: '29.12.2024', priority: 'low', from: 'Семенов Ф.Ж.' },
+    { id: 29, number: '3549', title: 'Подготовить проект договора', deadline: '22.12.2024', priority: 'high', from: 'Денисова К.Х.' },
+    { id: 30, number: '3550', title: 'Согласовать график приема граждан', deadline: '25.12.2024', priority: 'medium', from: 'Орлов З.Ц.' },
   ];
 
   const assignedByMe = [
-    { id: 1, title: 'Свод данных по регионам', deadline: '16.12.2024', assignee: 'Коновалова М.А.', status: 'В работе' },
-    { id: 2, title: 'Экспертное заключение', deadline: 'Смирнов Д.В.', assignee: 'Смирнов Д.В.', status: 'Выполнено' },
-    { id: 3, title: 'Анализ финансовых показателей', deadline: '17.12.2024', assignee: 'Белова Н.П.', status: 'В работе' },
-    { id: 4, title: 'Подготовка презентации', deadline: '18.12.2024', assignee: 'Гусев А.Л.', status: 'Новое' },
-    { id: 5, title: 'Проверка документации', deadline: '19.12.2024', assignee: 'Давыдова Е.С.', status: 'В работе' },
-    { id: 6, title: 'Составление отчета', deadline: '20.12.2024', assignee: 'Жуков М.Т.', status: 'Выполнено' },
-    { id: 7, title: 'Разработка инструкции', deadline: '21.12.2024', assignee: 'Зайцева О.Б.', status: 'В работе' },
-    { id: 8, title: 'Согласование проекта', deadline: '22.12.2024', assignee: 'Ильин В.Г.', status: 'Новое' },
-    { id: 9, title: 'Подготовка материалов', deadline: '23.12.2024', assignee: 'Киселева Л.Д.', status: 'В работе' },
-    { id: 10, title: 'Проверка расчетов', deadline: '24.12.2024', assignee: 'Лазарев С.Ф.', status: 'Выполнено' },
-    { id: 11, title: 'Анализ обращений', deadline: '25.12.2024', assignee: 'Матвеева И.К.', status: 'В работе' },
-    { id: 12, title: 'Разработка регламента', deadline: '26.12.2024', assignee: 'Никитин П.Н.', status: 'Новое' },
-    { id: 13, title: 'Подготовка справки', deadline: '27.12.2024', assignee: 'Ольгина Т.М.', status: 'В работе' },
-    { id: 14, title: 'Проверка сметы', deadline: '28.12.2024', assignee: 'Панов Р.О.', status: 'Выполнено' },
-    { id: 15, title: 'Составление плана', deadline: '29.12.2024', assignee: 'Родионова А.В.', status: 'В работе' },
-    { id: 16, title: 'Согласование графика', deadline: '30.12.2024', assignee: 'Савельев Д.Г.', status: 'Новое' },
-    { id: 17, title: 'Подготовка заключения', deadline: '17.12.2024', assignee: 'Титова Н.Л.', status: 'В работе' },
-    { id: 18, title: 'Проверка актов', deadline: '18.12.2024', assignee: 'Уваров К.Ж.', status: 'Выполнено' },
-    { id: 19, title: 'Анализ показателей', deadline: '19.12.2024', assignee: 'Фролова М.И.', status: 'В работе' },
-    { id: 20, title: 'Разработка методики', deadline: '20.12.2024', assignee: 'Харитонов Б.С.', status: 'Новое' },
-    { id: 21, title: 'Подготовка записки', deadline: '21.12.2024', assignee: 'Цветкова Е.Р.', status: 'В работе' },
-    { id: 22, title: 'Проверка договоров', deadline: '22.12.2024', assignee: 'Чернов А.П.', status: 'Выполнено' },
-    { id: 23, title: 'Составление реестра', deadline: '23.12.2024', assignee: 'Шестакова О.Н.', status: 'В работе' },
-    { id: 24, title: 'Согласование положения', deadline: '24.12.2024', assignee: 'Щербаков В.Д.', status: 'Новое' },
-    { id: 25, title: 'Подготовка информации', deadline: '25.12.2024', assignee: 'Юдина Л.К.', status: 'В работе' },
-    { id: 26, title: 'Проверка документов', deadline: '26.12.2024', assignee: 'Яковлева Т.Б.', status: 'Выполнено' },
-    { id: 27, title: 'Анализ данных', deadline: '27.12.2024', assignee: 'Абрамов С.Г.', status: 'В работе' },
-    { id: 28, title: 'Разработка проекта', deadline: '28.12.2024', assignee: 'Богданова И.Ф.', status: 'Новое' },
-    { id: 29, title: 'Подготовка отчета', deadline: '29.12.2024', assignee: 'Воронов М.Л.', status: 'В работе' },
-    { id: 30, title: 'Согласование приказа', deadline: '30.12.2024', assignee: 'Голубева Н.Х.', status: 'Выполнено' },
+    { id: 1, number: '4201', title: 'Свод данных по регионам', deadline: '16.12.2024', assignee: 'Коновалова М.А.', status: 'В работе' },
+    { id: 2, number: '4202', title: 'Экспертное заключение', deadline: 'Смирнов Д.В.', assignee: 'Смирнов Д.В.', status: 'Выполнено' },
+    { id: 3, number: '4203', title: 'Анализ финансовых показателей', deadline: '17.12.2024', assignee: 'Белова Н.П.', status: 'В работе' },
+    { id: 4, number: '4204', title: 'Подготовка презентации', deadline: '18.12.2024', assignee: 'Гусев А.Л.', status: 'Новое' },
+    { id: 5, number: '4205', title: 'Проверка документации', deadline: '19.12.2024', assignee: 'Давыдова Е.С.', status: 'В работе' },
+    { id: 6, number: '4206', title: 'Составление отчета', deadline: '20.12.2024', assignee: 'Жуков М.Т.', status: 'Выполнено' },
+    { id: 7, number: '4207', title: 'Разработка инструкции', deadline: '21.12.2024', assignee: 'Зайцева О.Б.', status: 'В работе' },
+    { id: 8, number: '4208', title: 'Согласование проекта', deadline: '22.12.2024', assignee: 'Ильин В.Г.', status: 'Новое' },
+    { id: 9, number: '4209', title: 'Подготовка материалов', deadline: '23.12.2024', assignee: 'Киселева Л.Д.', status: 'В работе' },
+    { id: 10, number: '4210', title: 'Проверка расчетов', deadline: '24.12.2024', assignee: 'Лазарев С.Ф.', status: 'Выполнено' },
+    { id: 11, number: '4211', title: 'Анализ обращений', deadline: '25.12.2024', assignee: 'Матвеева И.К.', status: 'В работе' },
+    { id: 12, number: '4212', title: 'Разработка регламента', deadline: '26.12.2024', assignee: 'Никитин П.Н.', status: 'Новое' },
+    { id: 13, number: '4213', title: 'Подготовка справки', deadline: '27.12.2024', assignee: 'Ольгина Т.М.', status: 'В работе' },
+    { id: 14, number: '4214', title: 'Проверка сметы', deadline: '28.12.2024', assignee: 'Панов Р.О.', status: 'Выполнено' },
+    { id: 15, number: '4215', title: 'Составление плана', deadline: '29.12.2024', assignee: 'Родионова А.В.', status: 'В работе' },
+    { id: 16, number: '4216', title: 'Согласование графика', deadline: '30.12.2024', assignee: 'Савельев Д.Г.', status: 'Новое' },
+    { id: 17, number: '4217', title: 'Подготовка заключения', deadline: '17.12.2024', assignee: 'Титова Н.Л.', status: 'В работе' },
+    { id: 18, number: '4218', title: 'Проверка актов', deadline: '18.12.2024', assignee: 'Уваров К.Ж.', status: 'Выполнено' },
+    { id: 19, number: '4219', title: 'Анализ показателей', deadline: '19.12.2024', assignee: 'Фролова М.И.', status: 'В работе' },
+    { id: 20, number: '4220', title: 'Разработка методики', deadline: '20.12.2024', assignee: 'Харитонов Б.С.', status: 'Новое' },
+    { id: 21, number: '4221', title: 'Подготовка записки', deadline: '21.12.2024', assignee: 'Цветкова Е.Р.', status: 'В работе' },
+    { id: 22, number: '4222', title: 'Проверка договоров', deadline: '22.12.2024', assignee: 'Чернов А.П.', status: 'Выполнено' },
+    { id: 23, number: '4223', title: 'Составление реестра', deadline: '23.12.2024', assignee: 'Шестакова О.Н.', status: 'В работе' },
+    { id: 24, number: '4224', title: 'Согласование положения', deadline: '24.12.2024', assignee: 'Щербаков В.Д.', status: 'Новое' },
+    { id: 25, number: '4225', title: 'Подготовка информации', deadline: '25.12.2024', assignee: 'Юдина Л.К.', status: 'В работе' },
+    { id: 26, number: '4226', title: 'Проверка документов', deadline: '26.12.2024', assignee: 'Яковлева Т.Б.', status: 'Выполнено' },
+    { id: 27, number: '4227', title: 'Анализ данных', deadline: '27.12.2024', assignee: 'Абрамов С.Г.', status: 'В работе' },
+    { id: 28, number: '4228', title: 'Разработка проекта', deadline: '28.12.2024', assignee: 'Богданова И.Ф.', status: 'Новое' },
+    { id: 29, number: '4229', title: 'Подготовка отчета', deadline: '29.12.2024', assignee: 'Воронов М.Л.', status: 'В работе' },
+    { id: 30, number: '4230', title: 'Согласование приказа', deadline: '30.12.2024', assignee: 'Голубева Н.Х.', status: 'Выполнено' },
   ];
 
   const documentsInWork = [
-    { id: 1, title: 'Проект распоряжения №1245', type: 'Распоряжение', date: '14.12.2024', status: 'На согласовании' },
-    { id: 2, title: 'Приказ о внесении изменений', type: 'Приказ', date: '13.12.2024', status: 'Черновик' },
-    { id: 3, title: 'Аналитическая записка', type: 'Записка', date: '12.12.2024', status: 'Доработка' },
-    { id: 4, title: 'Постановление о бюджете', type: 'Постановление', date: '15.12.2024', status: 'На согласовании' },
-    { id: 5, title: 'Служебная записка о закупках', type: 'Записка', date: '16.12.2024', status: 'Черновик' },
-    { id: 6, title: 'Приказ об утверждении регламента', type: 'Приказ', date: '17.12.2024', status: 'Доработка' },
-    { id: 7, title: 'Распоряжение о комиссии', type: 'Распоряжение', date: '18.12.2024', status: 'На согласовании' },
-    { id: 8, title: 'Проект договора поставки', type: 'Договор', date: '19.12.2024', status: 'Черновик' },
-    { id: 9, title: 'Информационная справка', type: 'Справка', date: '20.12.2024', status: 'Доработка' },
-    { id: 10, title: 'Приказ о штатном расписании', type: 'Приказ', date: '21.12.2024', status: 'На согласовании' },
-    { id: 11, title: 'Постановление о мерах поддержки', type: 'Постановление', date: '22.12.2024', status: 'Черновик' },
-    { id: 12, title: 'Аналитический отчет', type: 'Отчет', date: '23.12.2024', status: 'Доработка' },
-    { id: 13, title: 'Распоряжение о проверке', type: 'Распоряжение', date: '24.12.2024', status: 'На согласовании' },
-    { id: 14, title: 'Приказ о премировании', type: 'Приказ', date: '25.12.2024', status: 'Черновик' },
-    { id: 15, title: 'Методические рекомендации', type: 'Методика', date: '26.12.2024', status: 'Доработка' },
-    { id: 16, title: 'Постановление о тарифах', type: 'Постановление', date: '27.12.2024', status: 'На согласовании' },
-    { id: 17, title: 'Проект положения', type: 'Положение', date: '28.12.2024', status: 'Черновик' },
-    { id: 18, title: 'Служебная записка об отпусках', type: 'Записка', date: '29.12.2024', status: 'Доработка' },
-    { id: 19, title: 'Распоряжение о командировках', type: 'Распоряжение', date: '30.12.2024', status: 'На согласовании' },
-    { id: 20, title: 'Приказ о должностных инструкциях', type: 'Приказ', date: '15.12.2024', status: 'Черновик' },
-    { id: 21, title: 'Аналитическая справка по кадрам', type: 'Справка', date: '16.12.2024', status: 'Доработка' },
-    { id: 22, title: 'Постановление о программе развития', type: 'Постановление', date: '17.12.2024', status: 'На согласовании' },
-    { id: 23, title: 'Проект соглашения', type: 'Соглашение', date: '18.12.2024', status: 'Черновик' },
-    { id: 24, title: 'Информация для отчета', type: 'Информация', date: '19.12.2024', status: 'Доработка' },
-    { id: 25, title: 'Приказ о комиссии по закупкам', type: 'Приказ', date: '20.12.2024', status: 'На согласовании' },
-    { id: 26, title: 'Распоряжение о графике работы', type: 'Распоряжение', date: '21.12.2024', status: 'Черновик' },
-    { id: 27, title: 'Служебная записка о совещании', type: 'Записка', date: '22.12.2024', status: 'Доработка' },
-    { id: 28, title: 'Постановление об оплате труда', type: 'Постановление', date: '23.12.2024', status: 'На согласовании' },
-    { id: 29, title: 'Проект регламента', type: 'Регламент', date: '24.12.2024', status: 'Черновик' },
-    { id: 30, title: 'Аналитическая записка о контроле', type: 'Записка', date: '25.12.2024', status: 'Доработка' },
+    { id: 1, number: '5801', title: 'Проект распоряжения №1245', type: 'Распоряжение', date: '14.12.2024', status: 'На согласовании' },
+    { id: 2, number: '5802', title: 'Приказ о внесении изменений', type: 'Приказ', date: '13.12.2024', status: 'Черновик' },
+    { id: 3, number: '5803', title: 'Аналитическая записка', type: 'Записка', date: '12.12.2024', status: 'Доработка' },
+    { id: 4, number: '5804', title: 'Постановление о бюджете', type: 'Постановление', date: '15.12.2024', status: 'На согласовании' },
+    { id: 5, number: '5805', title: 'Служебная записка о закупках', type: 'Записка', date: '16.12.2024', status: 'Черновик' },
+    { id: 6, number: '5806', title: 'Приказ об утверждении регламента', type: 'Приказ', date: '17.12.2024', status: 'Доработка' },
+    { id: 7, number: '5807', title: 'Распоряжение о комиссии', type: 'Распоряжение', date: '18.12.2024', status: 'На согласовании' },
+    { id: 8, number: '5808', title: 'Проект договора поставки', type: 'Договор', date: '19.12.2024', status: 'Черновик' },
+    { id: 9, number: '5809', title: 'Информационная справка', type: 'Справка', date: '20.12.2024', status: 'Доработка' },
+    { id: 10, number: '5810', title: 'Приказ о штатном расписании', type: 'Приказ', date: '21.12.2024', status: 'На согласовании' },
+    { id: 11, number: '5811', title: 'Постановление о мерах поддержки', type: 'Постановление', date: '22.12.2024', status: 'Черновик' },
+    { id: 12, number: '5812', title: 'Аналитический отчет', type: 'Отчет', date: '23.12.2024', status: 'Доработка' },
+    { id: 13, number: '5813', title: 'Распоряжение о проверке', type: 'Распоряжение', date: '24.12.2024', status: 'На согласовании' },
+    { id: 14, number: '5814', title: 'Приказ о премировании', type: 'Приказ', date: '25.12.2024', status: 'Черновик' },
+    { id: 15, number: '5815', title: 'Методические рекомендации', type: 'Методика', date: '26.12.2024', status: 'Доработка' },
+    { id: 16, number: '5816', title: 'Постановление о тарифах', type: 'Постановление', date: '27.12.2024', status: 'На согласовании' },
+    { id: 17, number: '5817', title: 'Проект положения', type: 'Положение', date: '28.12.2024', status: 'Черновик' },
+    { id: 18, number: '5818', title: 'Служебная записка об отпусках', type: 'Записка', date: '29.12.2024', status: 'Доработка' },
+    { id: 19, number: '5819', title: 'Распоряжение о командировках', type: 'Распоряжение', date: '30.12.2024', status: 'На согласовании' },
+    { id: 20, number: '5820', title: 'Приказ о должностных инструкциях', type: 'Приказ', date: '15.12.2024', status: 'Черновик' },
+    { id: 21, number: '5821', title: 'Аналитическая справка по кадрам', type: 'Справка', date: '16.12.2024', status: 'Доработка' },
+    { id: 22, number: '5822', title: 'Постановление о программе развития', type: 'Постановление', date: '17.12.2024', status: 'На согласовании' },
+    { id: 23, number: '5823', title: 'Проект соглашения', type: 'Соглашение', date: '18.12.2024', status: 'Черновик' },
+    { id: 24, number: '5824', title: 'Информация для отчета', type: 'Информация', date: '19.12.2024', status: 'Доработка' },
+    { id: 25, number: '5825', title: 'Приказ о комиссии по закупкам', type: 'Приказ', date: '20.12.2024', status: 'На согласовании' },
+    { id: 26, number: '5826', title: 'Распоряжение о графике работы', type: 'Распоряжение', date: '21.12.2024', status: 'Черновик' },
+    { id: 27, number: '5827', title: 'Служебная записка о совещании', type: 'Записка', date: '22.12.2024', status: 'Доработка' },
+    { id: 28, number: '5828', title: 'Постановление об оплате труда', type: 'Постановление', date: '23.12.2024', status: 'На согласовании' },
+    { id: 29, number: '5829', title: 'Проект регламента', type: 'Регламент', date: '24.12.2024', status: 'Черновик' },
+    { id: 30, number: '5830', title: 'Аналитическая записка о контроле', type: 'Записка', date: '25.12.2024', status: 'Доработка' },
   ];
 
   const getPriorityColor = (priority: string) => {
@@ -232,8 +232,13 @@ const Index = () => {
                     className="p-4 bg-white/80 rounded-xl border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer"
                   >
                     <div className="flex items-start justify-between gap-2 mb-2">
-                      <h4 className="font-semibold text-gray-800 text-sm leading-tight">{task.title}</h4>
-                      <Badge className={`${getPriorityColor(task.priority)} border text-xs px-2 py-0.5`}>
+                      <div className="flex-1">
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-xs font-mono text-gray-500">№ {task.number}</span>
+                        </div>
+                        <h4 className="font-semibold text-gray-800 text-sm leading-tight">{task.title}</h4>
+                      </div>
+                      <Badge className={`${getPriorityColor(task.priority)} border text-xs px-2 py-0.5 flex-shrink-0`}>
                         {getPriorityLabel(task.priority)}
                       </Badge>
                     </div>
@@ -266,6 +271,9 @@ const Index = () => {
                     key={task.id}
                     className="p-4 bg-white/80 rounded-xl border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer"
                   >
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-mono text-gray-500">№ {task.number}</span>
+                    </div>
                     <h4 className="font-semibold text-gray-800 text-sm mb-2 leading-tight">{task.title}</h4>
                     <div className="flex items-center justify-between text-xs text-gray-600">
                       <span className="flex items-center gap-1">
@@ -295,6 +303,9 @@ const Index = () => {
                     key={doc.id}
                     className="p-4 bg-white/80 rounded-xl border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer"
                   >
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-mono text-gray-500">№ {doc.number}</span>
+                    </div>
                     <h4 className="font-semibold text-gray-800 text-sm mb-2 leading-tight">{doc.title}</h4>
                     <div className="flex items-center justify-between text-xs text-gray-600">
                       <span className="flex items-center gap-1">
